@@ -1,0 +1,5 @@
+# personal pacing config — contributors copy config.example.json
+config.json
+# scratch
+_*.json
+*.tmp

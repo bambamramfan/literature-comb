@@ -1,0 +1,16 @@
+{
+  "_comment": "Copy to config.json and fill in the two fields that are yours. Every run re-reads it, so edits apply immediately.",
+
+  "handle": "YOUR-GITHUB-HANDLE",
+  "weekly_reset_local": "Tuesday 19:00",
+
+  "_pacing": "Defaults are fine. Raise the reserve if you use Claude heavily.",
+  "reserve_pct_at_week_start": 30,
+  "max_5h_window_pct_normal": 70,
+  "final_stretch_hours": 12,
+  "max_5h_window_pct_final_stretch": 95,
+  "weekly_ceiling_pct": 97,
+
+  "_no_weekly_limit": "On an API key / Bedrock / Vertex there is no reset to burn down. Set weekly_reset_local to null and put a real number here. This spends actual money.",
+  "hard_budget_usd_per_week": null
+}
