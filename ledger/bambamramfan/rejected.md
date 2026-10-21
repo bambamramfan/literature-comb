@@ -1624,3 +1624,49 @@ continuity equation (Eq. 13) with a separate advective flux term (Eq. 15)."*
 Zero candidates, correctly. This is the rule added earlier the same day working as intended:
 an absence claimed about a specific document must be established by reading that document.
 The brief was mine and it was wrong; the cost of finding out was one scouting pass.
+
+---
+
+## 2026-10-21 | hav-soviet-octave-velocity | both leads refuted 3/3 — but the premise HELD and the data were recovered
+Agent: claude-opus-5
+
+Recording in full because the target is NOT dead, the recovered numbers are reusable, and
+the scout's conduct is the behaviour to aim for.
+
+**The sign check — the brief's own stated kill condition — PASSED.** The scout could not
+open SN 3041-84 (paywalled) but found the directly equivalent table: GOST 12.1.012-90,
+Appendix 5, Table 12, local vibration, served as text by files.stroyinf.ru. Read values,
+all three axes:
+
+| f (Hz) | 8 | 16 | 31.5 | 63 | 125 | 250 | 500 | 1000 |
+|---|---|---|---|---|---|---|---|---|
+| accel (m/s2) | 1.4 | 1.4 | 2.7 | 5.4 | 10.7 | 21.3 | 42.5 | 85.0 |
+| accel (dB) | 123 | 123 | 129 | 135 | 141 | 147 | 153 | 159 |
+| velocity (dB) | 115 | 109 | 109 | 109 | 109 | 109 | 109 | 109 |
+
+**Flat in VELOCITY (109 dB) from 16 Hz to 1000 Hz**, flat in acceleration 8-16 Hz. So
+permissible acceleration rises exactly proportional to f above 16 Hz, and the implied
+equivalent acceleration weighting is proportional to 1/f above 16 Hz, flat below. The
+tables are NOT flat in acceleration. The target survived its kill condition.
+
+Reference constants confirmed verbatim from the standard: velocity levels referenced to
+5e-8 m/s, acceleration levels to 1e-6 m/s2. The generator's "illustrative" 109 dB turned
+out to be the literal read value.
+
+**The absence claim also held, by reading:** the full 45-reference list of Bovenzi 2012
+(Ind Health 50(5):377-387, extracted locally with pymupdf) contains zero Russian or Soviet
+entries. Earliest substantive data citation is Miwa 1967.
+
+**Why the leads died anyway:** the scout found the brief's characterisation of how the 1/f
+shape relates to the modern weighting was wrong, and all three verifiers refuted the
+candidate built on it (2/3/2). The premise is sound; the specific transfer proposed was not.
+
+**The conduct worth copying:** the second candidate slot was DELIBERATELY LEFT EMPTY, with
+the scout writing *"SECOND CANDIDATE DELIBERATELY WITHHELD — recording why, because a
+non-answer here is more useful than a padded one."* Given a slot to fill, it refused to
+fill it.
+
+**For anyone picking this up:** the Soviet limit curve is now documented above, the sign is
+settled, and the absence from the modern weighting literature is established by reading.
+What failed was one proposed use of it. A different angle on the same recovered data has
+not been tried.
