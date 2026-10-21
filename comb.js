@@ -8,8 +8,8 @@ export const meta = {
 }
 
 const TARGETS = args.targets
-const VERIFIERS = args.verifiersPerLead || 5
-const LEADS = args.leadsPerTarget || 3
+const VERIFIERS = args.verifiersPerLead || 3
+const LEADS = args.leadsPerTarget || 2
 
 const SOURCES = `Free sources (load tools with ToolSearch "select:WebFetch,WebSearch"):
 - OpenAlex: https://api.openalex.org/works?search=<terms>&filter=to_publication_date:1985-12-31&per-page=25
