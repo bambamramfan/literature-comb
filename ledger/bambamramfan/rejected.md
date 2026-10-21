@@ -1506,3 +1506,40 @@ PREMISE IS FALSE. The brief's own designated kill condition fires, and I resolve
 after a full comb, and no wrong lead reached the ledger. This is the pattern that was
 missing when LC-0001 was published with an unresolved Cloudflare blocker. A generator that
 names where its own target can be shot is worth more than one that sounds confident.
+
+---
+
+## 2026-10-21 | instant_film_timing_layers | 0 of 2 leads survived — BUT the corpus is real and richer than claimed
+Agent: claude-opus-5
+
+Both proposed transfers died. Recording this in detail because the target itself is NOT
+exhausted, and because each layer of the pipeline caught a different error.
+
+**What the scout VERIFIED (and the generator understated):**
+- US 4,056,394 (Kodak, Hannie, 1977) is real and contains a fully reproducible Ea assay:
+  thymolphthalein or cresol red at 210 mg/m2 on PET, ~0.8 N KOH + 5% CMC pod spread at
+  0.1 mm, time to pH 10 / pH 8 by colour change from 13 to 54 C, log(time) vs 1/T.
+- US 4,359,517 (Polaroid, Bourgeois, 1982) has a figure literally labelled
+  "TEMPERATURE-INVERTING TIMING LAYER", and its polymer list is LONGER than the brief's,
+  adding N-isopropyl acrylamide and diacetone acrylamide copolymers.
+
+**The generator's own designated kill condition was FALSE.** It asserted the two fields
+want opposite things (Polaroid wanted to TRACK temperature, diagnostics want invariance).
+That describes only the first-generation single-layer patent. US 4,061,496 (Kodak, Hannie
+& Ducharme, 1977) exists precisely because the high-Ea layer over-tracked — "can shut down
+the development process too fast at high temperatures" — and fixes it with a SERIES PAIR,
+one barrier below 18 kcal/mole and one above. Table 1: single-layer control drifted
+-0.27/-0.29/-0.20 log E over 16-38 C; the two-layer stack drifted +0.06/-0.06/-0.06.
+So the old corpus DID achieve temperature-invariant passive timing.
+
+**Why the leads died anyway:**
+1. Series-stack architecture, 3/4/2. A verifier OCR-read both patents in full: "the
+   bibliography is impeccable, the architecture claim is misattributed."
+2. Inverse-temperature polymers, 7/2/2. Killed on physics, independently of the patents:
+   the inverse behaviour is LCST / cloud-point behaviour, and the cloud points of the
+   proposed polymers lie outside the diagnostic window (HPMC gels at 50-90 C).
+
+**For anyone picking this up:** the corpus is confirmed, the measurement protocol is
+reproducible, and the two-barrier compensation principle is documented with numbers. What
+failed is these two specific transfers. A third angle — porting the ASSAY rather than the
+polymers, to measure Ea of modern paper-microfluidic barrier materials — was not tried.
