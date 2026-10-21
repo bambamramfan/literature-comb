@@ -9,9 +9,6 @@ export const meta = {
 
 const DOMAINS = args.domains
 const CHECKERS = args.checkersPerTarget || 2
-const MAX_PER_DOMAIN = args.maxProposalsPerDomain || 2  // AGENT-COUNT CEILING: the killer stage is
-// quadratic in this. Measured 2026-10-21: past ~100 concurrent agents the shared WebSearch budget runs
-// dry and 19% of kill verdicts were reached by agents that could not search at all. Keep runs small.
 
 const PROPOSE_SCHEMA = {
   type: 'object',
@@ -26,12 +23,13 @@ const PROPOSE_SCHEMA = {
           problem: { type: 'string' },
           core_premise: { type: 'string', description: 'the ONE falsifiable claim this target rests on, stated so a skeptic can attack it' },
           notes: { type: 'string', description: 'B-terms, the OLD vocabulary for them, which literatures to dig in, traps to avoid' },
-          mechanistic_reason_for_gap: { type: 'string', description: 'WHY the gap exists: scope condition changed, documented commercial abandonment, vocabulary split for the same physical quantity. NOT a citation count.' },
+          discontinuity_event: { type: 'string', description: 'REQUIRED. The specific, NAMED, DATED, documented event that severed the two literatures: a programme cancelled, an industry displaced by a competing technology, an agency dissolved, a community importing a toolkit from a different material class, a language or trade-venue barrier. Name it and date it. If you cannot, do not propose this target.' },
+          mechanistic_reason_for_gap: { type: 'string', description: 'WHY the gap exists, following from discontinuity_event. NOT a citation count.' },
           premises_verified: { type: 'string', description: 'exactly what you searched and what the most on-point modern reference list actually contains' },
           physical_coherence_check: { type: 'string', description: 'is the proposed check physically/numerically possible at the stated conditions' },
           verifiability: { type: 'string' },
         },
-        required: ['key', 'problem', 'core_premise', 'notes', 'mechanistic_reason_for_gap', 'premises_verified', 'physical_coherence_check', 'verifiability'],
+        required: ['key', 'problem', 'core_premise', 'notes', 'discontinuity_event', 'mechanistic_reason_for_gap', 'premises_verified', 'physical_coherence_check', 'verifiability'],
       },
     },
   },
@@ -75,11 +73,20 @@ So, for each target you propose:
 - Run the co-occurrence check on the BARE concept against the BARE target system, with no application-domain words.
 - Open the reference list of the single most on-point modern document and actually read it.
 - Never write "verified live" from a search snippet. Quote what you actually saw.
+- NAME THE DISCONTINUITY. Every target that has ever survived this filter had one specific, dated,
+  documented event that severed the two literatures. The five survivors so far: a programme cancelled
+  (SST, 1971, and the field restarted on different alloys); an industry displaced outright (fluidics,
+  killed by cheap silicon ~1975); a community importing a toolkit from the wrong material class (glass
+  cores inheriting organic-laminate qualification, 2023-26); a language-and-trade-venue barrier (Japanese
+  koji machinery published by equipment makers, not journals); an agency dissolved plus a unit split
+  (USDA dryland stations, gravimetric percent per foot). Targets WITHOUT such an event are the ones that
+  get killed, almost always with the verdict 'the gap is purely bibliographic by the author's own
+  construction'. If you cannot name and date the event, DO NOT PROPOSE THE TARGET.
 - Give a MECHANISTIC reason the gap exists — scope condition changed, documented commercial abandonment,
   vocabulary split for the same physical quantity. A pure citation-count gap is padding; do not propose it.
 - Sanity-check the arithmetic and the physical regime of your proposed experiment.
 
-Propose up to 3, best first (only the top ${MAX_PER_DOMAIN} will be checked). FEWER, SURVIVING TARGETS BEAT FIVE PADDED ONES. Proposing two you believe in is a good outcome.
+Propose up to 5. FEWER, SURVIVING TARGETS BEAT FIVE PADDED ONES. Proposing two you believe in is a good outcome.
 
 ${SRC}`
 
@@ -88,6 +95,7 @@ const killPrompt = t => `You are killing a proposed research target before it wa
 KEY: ${t.key}
 PROBLEM: ${t.problem}
 CORE PREMISE: ${t.core_premise}
+CLAIMED DISCONTINUITY EVENT: ${t.discontinuity_event}
 CLAIMED GAP MECHANISM: ${t.mechanistic_reason_for_gap}
 AUTHOR'S PREMISE CHECK: ${t.premises_verified}
 PHYSICAL COHERENCE CLAIM: ${t.physical_coherence_check}
@@ -100,7 +108,9 @@ Try hard to falsify, in this order:
 2. Is the question actually settled in the literature?
 3. Open the most on-point modern review and read its REFERENCE LIST. If it cites the old corpus, the gap is fake.
 4. Is the proposed experiment physically possible at the stated conditions? Check the regime and the arithmetic.
-5. Is the only stated reason for the gap that nobody cited it? That is padding — set gap_is_merely_bibliographic.
+5. Is the claimed discontinuity event real, correctly dated, and sufficient to sever the literatures?
+   Check it. An invented or vague event ('interest waned') is padding. Is the only stated reason that
+   nobody cited it? That is padding too — set gap_is_merely_bibliographic.
 
 keep=true only if you tried all five and the premise still stands.
 
@@ -111,9 +121,7 @@ const results = await pipeline(
   d => agent(proposePrompt(d), { label: `propose:${d.slice(0, 20)}`, phase: 'Propose', schema: PROPOSE_SCHEMA }),
   (prop, d) => {
     if (!prop || !prop.targets.length) { log(`${d.slice(0, 28)}: proposed nothing`); return [] }
-    const take = prop.targets.slice(0, MAX_PER_DOMAIN)
-    if (prop.targets.length > take.length) log(`${d.slice(0,28)}: capped ${prop.targets.length} proposals to ${take.length}`)
-    return parallel(take.map(t => () =>
+    return parallel(prop.targets.map(t => () =>
       parallel(Array.from({ length: CHECKERS }, (_, k) =>
         () => agent(killPrompt(t), { label: `kill:${t.key}.${k + 1}`, phase: 'Falsify', schema: KILL_SCHEMA })
       )).then(vs => {
