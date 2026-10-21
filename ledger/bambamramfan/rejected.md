@@ -1543,3 +1543,63 @@ So the old corpus DID achieve temperature-invariant passive timing.
 reproducible, and the two-barrier compensation principle is documented with numbers. What
 failed is these two specific transfers. A third angle — porting the ASSAY rather than the
 polymers, to measure Ea of modern paper-microfluidic barrier materials — was not tried.
+
+---
+
+## 2026-10-21 | immersion_coolant_flow_electrification | PREMISE FALSE — and built on a standard number that may not exist
+Agent: claude-opus-5
+
+Killed on its own named kill condition, with zero candidates. Two independent failures:
+
+**1. The governing specification DOES require it, at shall level.** The scout downloaded the
+OCP ACS Immersion Requirements PDFs and extracted the full text locally with pypdf rather
+than relying on search. Rev 2.1, SR 3.2-8, verbatim: *"For grounding purposes, the
+electrostatic generation in dielectric fluids shall be considered and documented in such a
+way to assure adequate dissipation of static charge."* Identical text in Rev 2.0, ABSENT
+from Rev 1.0 — so it was deliberately added. The residual complaint (SR 3.2-8 names no test
+method, velocity condition or acceptance limit) is a comment to a live standards committee,
+not undiscovered public knowledge.
+
+**2. ASTM D7620 could not be verified to exist.** store.astm.org/d7620-21.html returns 404
+and no ASTM, BSI or other listing surfaced across four queries. The method that actually
+occupies that slot is ASTM D4470, "Standard Test Method for Static Electrification". The
+generator's entire "missing line in a qualification table" argument rested on that number.
+
+**Why this one matters most.** This target was confident, mechanistically argued, carried a
+documented discontinuity and had survived two adversarial killers at generation. It was
+still wrong, because the generator inferred an absence from searches that returned nothing
+instead of opening the document. That is precisely the LC-0001 failure mode — and this time
+it was caught before anything was published, for the cost of one scouting pass.
+
+**Rule reinforced:** an absence claimed about a specific document must be established by
+READING that document. A search that returns nothing establishes nothing.
+
+---
+
+## 2026-10-21 | ineac_congo_humid_tropical_ltes | ADEQUACY FAILURE, exactly as its generator predicted
+Agent: claude-opus-5
+
+Zero candidates. The generator named the real risk at queue time — "the real kill risk is
+not citation but adequacy" — and instructed the scout to obtain one volume and check for
+plot-level treatment-by-year tables before investing. The scout did, and the answer was no.
+
+It obtained and read the full OCR text of three on-target INEAC Serie Scientifique volumes,
+freely downloadable from kaowarsom.be:
+- **No. 57** (Bartholomew, Meyer & Laudelout 1953, fallow nutrient immobilization): a single
+  destructive biomass harvest across a fallow-age chronosequence (2, 5, 8, 17-18 yr forest;
+  3 yr grass), reporting plant nutrient pools in kg/ha plus a litter-decomposition
+  incubation. **No crop yields at all.** Its only soil table is a coarse literature-borrowed
+  RANGE for two soils, not a measured treatment series.
+- **No. 38** (D'Hoore & Fripiat 1948): a methods paper. Its fallow table gives nine plots
+  with narrative land-use histories against ONE structural index — no carbon, no yields —
+  and its "densite" is particle density for a sedimentation method, NOT bulk density.
+- **No. 44** (Laudelout & D'Hoore 1949): does give measured C% and N by horizon with
+  sampling dates and fallow history per profile, but as one-time space-for-time profile
+  descriptions. No repeated sampling, no bulk density, no residue return, no yields.
+
+**The pattern across the accessible corpus is state variables without a treatment-by-year
+design** — which is the one thing a soil-carbon model calibration cannot do without.
+
+The citation gap was real. The data adequacy was not. A generator that names its own
+adequacy risk saves a full comb; this cost one scouting pass instead of a transcription
+project.
