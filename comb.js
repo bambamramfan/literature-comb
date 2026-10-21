@@ -8,8 +8,8 @@ export const meta = {
 }
 
 const TARGETS = args.targets
-const VERIFIERS = args.verifiersPerLead || 2
-const LEADS = args.leadsPerTarget || 2
+const VERIFIERS = args.verifiersPerLead || 5
+const LEADS = args.leadsPerTarget || 3
 
 const SOURCES = `Free sources (load tools with ToolSearch "select:WebFetch,WebSearch"):
 - OpenAlex: https://api.openalex.org/works?search=<terms>&filter=to_publication_date:1985-12-31&per-page=25
@@ -84,7 +84,7 @@ Procedure:
 1. Map the target (C): its key mechanisms and sub-problems (B-terms). For each, list the OLDER vocabulary — what a 1950s or 1920s paper would have called it. Searching only modern terms finds only modern papers; this step is where the value is.
 2. For each B-term search OLD or DISCONNECTED literature (pre-1985 preferred, non-English, or adjacent fields that never cite the target field) for findings A bearing on B.
 3. CO-OCCURRENCE CHECK, EARLY: before investing in any candidate, search A together with C. If modern work already made the link, DROP IT NOW and record it in discarded_for_already_known. Do not carry it forward hoping a verifier disagrees.
-4. READ the source. Full text where reachable, abstract at minimum. Never cite anything you did not fetch. If you only ever saw a title, drop it — do not report it with read_full_text=false.
+4. READ THE FULL TEXT. This is mandatory, not best-effort. Fetch the PDF or full record and read the BODY -- methods, tables, the sentences around the one you want, and the reference list. An abstract is NOT enough: in prior runs read_full_text was false on every single bad candidate, and the commonest kill was the scout's own source contradicting it in a paragraph nobody opened. If a reference in your own list names your endpoint, OPEN IT. If you cannot obtain the full text, DROP the candidate -- do not report it with read_full_text=false. Also state the first author and journal from a record that actually serves them (Europe PMC core, Crossref); an OpenAlex-reconstructed abstract is unattributed until confirmed. Spend tokens here -- depth per target is what this budget is for. If you only ever saw a title, drop it — do not report it with read_full_text=false.
 5. Return up to ${LEADS + 2} candidates, best first.
 
 ZERO CANDIDATES IS A CORRECT AND COMPLETE ANSWER. Do not pad. A padded ledger makes this project worthless.

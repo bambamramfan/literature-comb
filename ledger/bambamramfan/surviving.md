@@ -20,6 +20,22 @@ still listed open, but the prime case is settled.
   could NOT reach the forum thread (Cloudflare 403) -- check it before posting.
 - Draft: `drafts/erdos-634-issue.md`
 
+> **RETRACTED 2026-10-21 — the premise is FALSE. Do not act on this entry.**
+> The erdosproblems.com **proof-claims thread** for #634 (the page Cloudflare blocked our
+> verifier from, at /forum/thread/634/proof-claims) already carries a claim submitted
+> **2026-07-24 by jphme (J.P. Harries)** stating exactly this result: for every prime
+> p > 3 with p == 3 mod 4 no triangle can be tiled by p congruent triangles, 19 included,
+> so prime tile counts are p = 2, p = 3, or p == 1 mod 4. That is **two days before**
+> Beeson's arXiv:2607.23453 and ~3 months before we reported it. The problem page itself
+> (last edited 2025-12-30) already links Beeson's triangle-tiling slides and discusses
+> 19 and 4n+3.
+> The `open` status in problems.yaml is therefore CORRECT, not stale: an unrefereed proof
+> claim resting on preprints is not a settled result. Nothing is missing from the tracker.
+> The draft issue must NOT be posted.
+> **Same failure as the pilot's #1221.** Both asserted a tracker omission that was never
+> actually checked because the checking page was unreachable. A blocked check is a REFUTATION,
+> not a caveat to publish alongside. Verified by loading the page in a real browser.
+
 ## 2026-10-16 | cauris | score 6.5 | DESTINATION: undecided
 A 1960s guanidine-containing polyketide macrolide (azalomycin F) was documented to kill
 *C. albicans* by membrane permeabilisation with leakage of cell constituents. It has

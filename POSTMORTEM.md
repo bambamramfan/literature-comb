@@ -85,3 +85,27 @@ plus a list of things that are not true — and the list of things that are not 
 genuinely worth publishing, because it stops the next person re-walking it.
 
 Do not pad. A padded ledger makes the pool worthless to everyone in it.
+
+---
+
+## Update 2026-10-21: a blocked check is a refutation, not a caveat
+
+LC-0001 (Erdos #634) was promoted to the public ledger and is **wrong**. Its premise was
+that erdosproblems.com had not recorded the prime case as settled. The proof-claims thread
+had carried exactly that result since 2026-07-24, three months before our sweep.
+
+Our verifier was Cloudflare-blocked (403) from that page. It recorded the block as a caveat,
+scored the lead 5, and we published. Loading the page in a real browser took under a minute
+and refuted it outright.
+
+**This is the second occurrence.** The pilot's Erdos #1221 died identically: a scout asserted
+the page omitted a preprint; the page already listed it.
+
+**The rule:** no lead may assert that a tracker, review or database omits something unless
+the omission was verified by actually loading the relevant page. If the page cannot be
+reached, the lead is REFUTED, not caveated. Fetch-level 403s are often solvable by rendering
+in a real browser; try that before giving up.
+
+**A second trap this exposed:** the #634 *comments* thread is genuinely empty. The content
+was under *proof claims*, a separate tab. Checking one surface of a tracker and reporting the
+other as absent is not a check. Enumerate every surface a result could be recorded on.
