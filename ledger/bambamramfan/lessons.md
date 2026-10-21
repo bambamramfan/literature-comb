@@ -89,3 +89,27 @@ replicate today (corpus-first generation; requiring a named discontinuity, which
 bibliographic padding without raising yield; and the "terminated monitoring programme"
 domain family, which returned zero on its first direct retest). This one has two
 instances. Treat it as a promising prompt, not a law.
+
+## 2026-10-21 — the hardest vocabulary trap: the same WORD meaning different chemistry
+
+From the PFAS sulfonate comb (zero survivors, but this is worth keeping).
+
+In the 1950s industrial literature, "reduction of sulfonic acids" means **oxygen-atom
+abstraction at S(VI) by P(0) or P(III)** — a deoxygenation, driven commercially by
+thiophenol manufacture. In modern PFAS work, "reduction" means **electron transfer to the
+substrate**: hydrated electrons, alkali metals, zero-valent iron. Same word, different
+mechanism, different reagent class, no retrieval overlap.
+
+This is harder than an ordinary vocabulary split, because the searcher gets plenty of hits
+and they are all the wrong chemistry. An empty result set signals a gap; a full result set
+of the wrong sense signals nothing at all, and looks like the ground has been covered.
+
+Other terms from the same comb where the old word has no modern counterpart:
+'sulphochloride' (sulfonyl chloride), 'sulphinate' / 'sulphinic acid' (the
+one-electron-pair-reduced head group modern PFAS work never names), 'sulphoxylate' /
+Rongalite, 'fluorocarbon sulfonic acids' (3M's own 1950s name, predating "PFAS" by ~60
+years), 'HI-P red couple'.
+
+**How to apply:** when a B-term is a common word (reduction, activation, stabilisation,
+conditioning, recovery), establish what it MEANT in the old corpus before searching on it,
+and search the mechanism rather than the word.
