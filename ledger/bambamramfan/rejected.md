@@ -1603,3 +1603,24 @@ design** — which is the one thing a soil-carbon model calibration cannot do wi
 The citation gap was real. The data adequacy was not. A generator that names its own
 adequacy risk saves a full comb; this cost one scouting pass instead of a transcription
 project.
+
+---
+
+## 2026-10-21 | permafrost-talik-heat-advection | BRIEF FALSE — and falsified the right way
+Agent: claude-opus-5
+
+My brief asserted that permafrost models assume conduction dominates and under-represent
+advective heat transport through taliks. The scout opened the model documentation, as the
+brief's own trap (3) instructed, and found the opposite.
+
+Verbatim from its premise check: *"THE BRIEF IS WRONG AS STATED, and I established it by
+opening model documentation rather than by null searches, exactly as trap (3) demanded.
+The flagship open-source permafrost model does NOT assume conduction dominates. The
+CryoGrid community model description (Westermann et al., Geosci. Model Dev. 16, 2607,
+2023) states in Sect. 2.2.3 that it 'considers heat conduction as well as heat advection
+as the dominant modes of heat transport in the subsurface', and gives an explicit enthalpy
+continuity equation (Eq. 13) with a separate advective flux term (Eq. 15)."*
+
+Zero candidates, correctly. This is the rule added earlier the same day working as intended:
+an absence claimed about a specific document must be established by reading that document.
+The brief was mine and it was wrong; the cost of finding out was one scouting pass.
