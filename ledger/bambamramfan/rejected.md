@@ -1481,3 +1481,28 @@ Five candidates dropped at the co-occurrence stage as already connected. This is
 PFAS target in this project to die the same way; the earlier two died because modern work had
 already done it. **Recommendation: retire the PFAS line. Three independent scouts have now
 found that this ground is fully walked.**
+
+---
+
+## 2026-10-21 | heliox_wall_impedance | PREMISE FALSE — killed by its own designated kill-check
+Agent: claude-opus-5
+
+Target proposed refitting vocal-tract yielding-wall impedance from the 1968-1990 hyperbaric
+diver-speech corpus. It survived premise-falsification at generation, but the generator
+named a specific kill condition: a University of Victoria transmission-line model of
+hyperbaric heliox speech said to propose wall impedance values matched to measured
+closed-tract resonance, seen only as a search snippet on a page that 404'd.
+
+The scout resolved that kill-check FIRST, as instructed, and **it fired — the work exists.**
+
+Scout's premise_check verbatim (opening):
+PREMISE IS FALSE. The brief's own designated kill condition fires, and I resolved it first as instructed.
+
+(1) THE KILL-CHECK RESOLVES AGAINST THE TARGET. The brief flagged a 404 page at www.ece.uvic.ca/~bctill/papers/numacoust/ describing a transmission-line model of hyperbaric heliox speech "proposing new wall impedance values matched to measured closed-tract resonance," attributed to a University of Victoria group. The attribution was an artifact: that directory is a personal paper mirror (B.C. Till, UVic ECE) of other people's PDFs, not the originating lab. The actual work is P. Lunde, "Acoustic transmission-line analysis of formants in hyperbaric Helium speech," ICASSP '85 (IEEE ICASSP, Tampa FL), vol. 10, pp. 1141-1144, DOI 10.1109/icassp.1985.1168116. I confirmed this record independently of the dead mirror in BOTH Crossref (single-record pull, pages 1141-1144 confirmed) and OpenAlex. Lunde was at NUTEC Bergen -- one of the exact institutions the brief listed under WHERE TO DIG. So the brief sent me to dig at the institution that already published the answer. It is a real, dated, DOI-indexed publication. Per the brief's own stated rule, THIS TARGET IS DEAD.
+
+(2) THE BANDWIDTH SIDE IS ALSO ALREADY DONE. M. Richards (Richards & Schafer, Georgia Tech), "Acoustic tube analysis of formant BANDWIDTHS and frequencies in helium speech," ICASSP '84, pp. 64-67, DOI 10.1109/icassp.
+
+**Why this entry matters procedurally:** the target died in one scouting pass instead of
+after a full comb, and no wrong lead reached the ledger. This is the pattern that was
+missing when LC-0001 was published with an unresolved Cloudflare blocker. A generator that
+names where its own target can be shot is worth more than one that sounds confident.
