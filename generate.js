@@ -73,6 +73,16 @@ So, for each target you propose:
 - Run the co-occurrence check on the BARE concept against the BARE target system, with no application-domain words.
 - Open the reference list of the single most on-point modern document and actually read it.
 - Never write "verified live" from a search snippet. Quote what you actually saw.
+- AN ABSENCE CLAIMED ABOUT A SPECIFIC DOCUMENT MUST BE ESTABLISHED BY READING THAT DOCUMENT.
+  A search that returns nothing establishes NOTHING. If your premise is that a standard, a
+  specification, a review or a model's documentation omits something, you must OPEN IT and say
+  so. On 2026-10-21 a target claimed an immersion-cooling specification had no requirement for
+  flow-generated charge; a scout downloaded the PDF and found it as a shall-level clause,
+  deliberately added in a later revision. Searches had simply not surfaced it.
+- DO NOT CITE A STANDARD, PATENT OR REPORT NUMBER YOU HAVE NOT RESOLVED TO A REAL RECORD.
+  The same target's whole argument rested on ASTM D7620, which could not be verified to exist;
+  the slot is occupied by ASTM D4470. A fabricated identifier that sounds plausible is worse
+  than a vague claim, because it survives review by looking specific.
 - NAME THE DISCONTINUITY. Every target that has ever survived this filter had one specific, dated,
   documented event that severed the two literatures. The five survivors so far: a programme cancelled
   (SST, 1971, and the field restarted on different alloys); an industry displaced outright (fluidics,
