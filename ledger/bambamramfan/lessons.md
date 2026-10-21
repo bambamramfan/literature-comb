@@ -62,3 +62,30 @@ simultaneously today against one targets.json with read-modify-write, and one sh
 ledger. Append-only writes to rejected.md were safe; the JSON round-trip was not, and done
 flags could silently be lost. FIX before the next run: have the runner claim targets with a
 lock file, or give each session a disjoint target slice.
+
+## 2026-10-21 — the one pattern that has replicated: same quantity, sign of intent reversed
+
+Two independent targets, found hours apart from different prompts, have the identical
+structure. Both survived adversarial premise-falsification.
+
+- **deepwater_sludge_as_mcdr_analog.** 1986-92 monitoring measured benthic oxygen
+  consumption and oxygen penetration depth as HARM indicators, and their recovery as
+  evidence of no lasting damage. Marine carbon removal wants the same two observables as
+  evidence that carbon ARRIVED. Filed under pollution; needed under sequestration.
+- **phreatophyte_tank_et_vs_watertable_depth.** 1958-74 USGS tanks measured ET at held
+  water-table depths to show how much water could be SALVAGED by killing the vegetation.
+  Groundwater models need the same function to say how much water the ecosystem REQUIRES.
+  Ecologists cite those papers for their flux totals; modellers never take the depth
+  derivative.
+
+**The generative rule:** look for a quantity measured to prove something was harmful,
+absent, wasteful or safe, where a later field needs the same measurement to prove
+something is working. The policy reversal renames the quantity, changes its units and
+moves its publication venue, which is what severs the literatures. The measurement itself
+is untouched and usually better funded than anything the new field can afford.
+
+**Caveat on how this was found:** three other theories about what raises yield failed to
+replicate today (corpus-first generation; requiring a named discontinuity, which fixed
+bibliographic padding without raising yield; and the "terminated monitoring programme"
+domain family, which returned zero on its first direct retest). This one has two
+instances. Treat it as a promising prompt, not a law.
