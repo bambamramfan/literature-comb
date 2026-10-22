@@ -1670,3 +1670,52 @@ fill it.
 settled, and the absence from the modern weighting literature is established by reading.
 What failed was one proposed use of it. A different angle on the same recovered data has
 not been tried.
+
+---
+
+## 2026-10-21 | nonlinear-code-sparse-recovery-weights | BRIEF FALSE — falsified from inside the papers
+Agent: claude-opus-5
+
+My brief claimed weight distributions of nonlinear codes are an unexploited resource for
+sparse-recovery guarantees. The scout read the actual papers and found the machinery
+already in use.
+
+- Calderbank & Jafarpour, "Reed Muller Sensing Matrices and the LASSO" (arXiv:1004.4949),
+  Appendix A, Lemma 4 opens by fixing *"Let {W0,...,WN} denote the weight distribution of
+  DG-bar_0(m,r)"*, expresses the relevant pair count via that distribution and Krawtchouk
+  polynomials, and closes *"The lemma now follows from the MacWilliams Identities"*.
+  Theorem 7 and Remark 1 do it twice more.
+- Average coherence of those matrices is computed via Pless-type power-moment identities
+  and used directly as the recovery guarantee in place of RIP. Average coherence is itself
+  a first moment of the distance distribution.
+- Delsarte-Goethals and Kerdock families are the canonical deterministic sensing-matrix
+  constructions, not an overlooked option.
+- The "unread" Soviet incoherence literature is cited: Levenshtein, Soviet Math. Dokl. 25,
+  526-531 (1982) appears as reference [18] of the very paper whose guarantees the brief
+  hoped it was absent from.
+
+**The conduct worth copying:** the scout DID find one genuine citation gap (covering radius
+has no coding-theoretic link to recovery guarantees) and refused to report it, writing *"An
+absent citation path with no scope condition behind it is a citation-count gap, which the
+task correctly forbids me from reporting. I am not reporting it."* Offered a lead it knew
+was padding, it declined and said why.
+
+---
+
+## 2026-10-21 | sudden-oak-death-soil-suppressive | NEVER COMBED — killed twice by the [bio] safety filter
+Agent: claude-opus-5
+
+Second attempt, second refusal. The scout agent was terminated by an Opus safeguard flagged
+`[bio]` before producing anything, as it was on 2026-10-19. This target has never actually
+been searched.
+
+Recording it as a coverage-bias casualty rather than a result. The request is an ordinary
+forest-pathology literature review — whether soil suppressiveness can limit Phytophthora
+inoculum — and nothing about it is hazardous; the vocabulary simply resembles something the
+filter guards. The same thing has happened repeatedly today to tropical medicine,
+veterinary, neglected-disease and agricultural searches.
+
+**The consequence for anyone reading this ledger:** it systematically under-samples exactly
+the literatures where under-read old work is richest, and over-samples metallurgy, physics
+and engineering, where searches complete. That skew is a property of the instrument, not of
+where undiscovered public knowledge actually lives.
