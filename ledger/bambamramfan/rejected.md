@@ -1747,3 +1747,43 @@ that the stereotype trade treated contour depth as something that must be therma
 before the part loses constraint -- a short constrained set dwell in the closed hot die
 before release -- rather than something press pressure alone establishes. That is a
 testable process change even without old numbers. The trade-manual corpus is unopened.
+
+---
+
+## 2026-10-26 | lusatia_second_pass_triggering | MY BRIEF FALSE ON BOTH LEGS — killed in 79 seconds
+Agent: claude-opus-5
+
+The cheapest kill in the project: 1 agent, 5 tool calls, 75k tokens, 79 seconds. Recording
+it as the model of what a good scout does with a bad brief.
+
+I wrote that the tailings and hydraulic-fill literature "has very few instrumented
+triggering observations because nobody can ethically trigger a real facility." Both halves
+are false.
+
+**(1) Instrumented blast triggering is mainstream, English-language, with published
+thresholds** for exactly the quantity I wanted recovered: Studer & Kok (1980)
+scaled-distance / pore-pressure relation; the Colorado State 22-charge field series giving
+liquefaction onset at peak shear strains of ~0.03-0.04% and no residual pore pressure below
+~0.002% compressive strain; the South Platte River sand-island series (six buried charges
+instrumented for pore pressure, particle velocity and residual excess pressure), onset above
+~0.01% peak compressive strain; Rollins et al., ASCE JGGE 130:8 (2004), reporting pore
+pressure ratios above 0.8 sustained for minutes; Ashford et al., ASCE JGGE,
+DOI 10.1061/(ASCE)GT.1943-5606.0000846; Liu et al. 2017, Chinese J. Geotech. Eng. 39(4).
+Same journals, same regime.
+
+**(2) It has been done on real facilities.** Explosive compaction with instrumentation on a
+Northern Ontario tailings dam section (UBC thesis), a 2006 upstream-tailings trial (CGS
+GEO2010 paper 092), Gohl/Martin/Elliott's multi-site case-history compilation, the Seymour
+Falls Dam seismic upgrade, and an 18-case compilation reporting 2-10% volumetric
+densification.
+
+**The conduct:** it refused to spend the budget chasing the German sources, writing *"the
+bottleneck is not retrieval: the receiving literature already has the quantity."* It also
+pointed out that my own trap (3) — blast triggering injects energy absent from natural
+triggering — contradicted my framing, since the Lusatian blast set could never be merged
+into a natural-trigger threshold anyway.
+
+**Lesson, and it is about me, not the swarm:** a first pass surviving on one quantity
+(Wittig's arrest criterion, 7/4/3) does NOT license assuming the same corpus is unexploited
+on a different quantity. I asserted a scarcity in the receiving field without checking it —
+the exact failure the rules already forbid, committed by the person who wrote the rules.
