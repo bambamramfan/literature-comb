@@ -1787,3 +1787,40 @@ into a natural-trigger threshold anyway.
 (Wittig's arrest criterion, 7/4/3) does NOT license assuming the same corpus is unexploited
 on a different quantity. I asserted a scarcity in the receiving field without checking it —
 the exact failure the rules already forbid, committed by the person who wrote the rules.
+
+---
+
+## 2026-10-26 | mechanosorptive_creep_plant_fibre_composites | gap REAL, leads died — and the brief's own test would have produced a FALSE KILL
+Agent: claude-opus-5
+
+Recording in detail because the methodological catch is worth more than the leads were.
+
+**The absence is established, properly.** The scout pulled the COMPLETE Europe PMC
+fullTextXML of both modern plant-fibre durability reviews (PMC10254661, 202 kB, 106 refs,
+oldest 1976; PMC12299171, 241 kB, 79 refs, oldest 1975) and term-counted over the whole
+file including reference lists. ZERO occurrences in either of: mechano-sorpt,
+mechanosorpt, Armstrong, Kingston, Ranta-Maunus, k_def, Eurocode, timber, paperboard,
+Byrd, "service class", "cyclic humid", "humidity cycl". "wood" appears 12 times in each,
+never about creep mechanics.
+
+**THE FALSE-KILL WARNING.** The brief proposed a bench check at 35<->85% RH with 6-hour
+half-cycles. Urbanik & Lee 1995, read in full, states verbatim: *"Creep can terminate if
+the RH cycles faster than the ability of moisture to diffuse in and out of the material"*
+and *"the hygroexpansion amplitude and the creep rate increase as the cyclic RH period
+increases"* — with box data giving 15/5/3-day lives at 12/24/48-hour cycles, and
+particleboard plateauing only beyond ~96 hours. A 6-hour half-cycle is plausibly inside the
+SUPPRESSED regime, and the brief's stated failure signature (cycling creep landing between
+the two constant-RH arms) is ALSO the expected outcome of too short a cycle. The proposed
+experiment therefore cannot distinguish "no effect" from "wrong cycle period", and as
+written would have killed a real effect.
+
+**Physics sharpened:** the driver is the attained moisture-content AMPLITUDE, which is
+diffusion-limited (thickness^2/D), not the RATE of change. Gunderson & Tobey 1990
+(paperboard tension, periods from 20 min to 168 h) found creep per cycle constant with
+rate. "Amplitude, diffusion-limited" is a sharper and more falsifiable claim than "rate".
+
+**For a future attempt:** the gap stands, the cycle period must be set from the specimen's
+own diffusion time rather than chosen for convenience, and the packaging corpus already
+contains the laminate-level concept the composites field lacks — a derated working strength
+found by an incremental-load cyclic-RH creep test, with cyclic-RH compression creep rates
+reported 3 to 14 times those at constant high RH.
