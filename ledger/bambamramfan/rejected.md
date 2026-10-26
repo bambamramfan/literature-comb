@@ -1719,3 +1719,31 @@ veterinary, neglected-disease and agricultural searches.
 the literatures where under-read old work is richest, and over-samples metallurgy, physics
 and engineering, where searches complete. That skew is a property of the instrument, not of
 where undiscovered public knowledge actually lives.
+
+---
+
+## 2026-10-26 | flong_to_molded_fiber | link unmade, but nothing quantitative to carry across
+Agent: claude-opus-5
+
+Both leads refuted. The scout confirmed the connection is genuinely unmade -- a bare
+co-occurrence search of molded fibre against stereotype/flong/letterpress returned only
+historical printing sources -- and then killed the target on content.
+
+**(1) The old corpus has no numbers.** It opened US1,929,068, US1,931,749 and US2,080,697
+in full. The first and third contain essentially NO numbers at all; US1,931,749 has only
+400 degF drum, 30 s preheat, 1 min rotation. There is no recoverable quantitative
+shrinkage-allowance table in the patent corpus. The transferable content is qualitative
+process architecture, not data. The generator's own trap (a) warned of exactly this and was
+right. (Trade manuals on HathiTrust/Internet Archive were NOT opened in this run, so
+tabulated allowances may still exist there -- unverified.)
+
+**(2) The modern vacuum was overstated.** A paperboard-thermoforming springback literature
+exists (e.g. the LUT University thesis on mould surface finish versus springback,
+lutpub.lut.fi/handle/10024/170003). Molded fibre itself still has no prediction method, but
+a bridge must be positioned against that neighbouring work rather than as virgin ground.
+
+**What survives for a future attempt:** the one architectural idea the scout extracted is
+that the stereotype trade treated contour depth as something that must be thermally LOCKED
+before the part loses constraint -- a short constrained set dwell in the closed hot die
+before release -- rather than something press pressure alone establishes. That is a
+testable process change even without old numbers. The trade-manual corpus is unopened.
