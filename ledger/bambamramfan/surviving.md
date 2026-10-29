@@ -7,6 +7,8 @@ worth one cheap check, not a finding.
 ---
 
 ## 2026-10-16 | erdos-open | score 5 | DESTINATION: issue/PR draft ready
+
+- **Downstream:** LC-0001 in the betsyisaac public ledger (https://betsyisaac.github.io/literature-comb-ledger/#LC-0001) — status as of 2026-10-28: rejected (our retraction was accepted). Cite this LC number in any correction.
 **Erdos problem #634** (which N let a triangle be cut into N congruent triangles) is
 still listed open, but the prime case is settled.
 
@@ -37,6 +39,8 @@ still listed open, but the prime case is settled.
 > not a caveat to publish alongside. Verified by loading the page in a real browser.
 
 ## 2026-10-16 | cauris | score 6.5 | DESTINATION: undecided
+
+- **Downstream:** LC-0002 in the betsyisaac public ledger (https://betsyisaac.github.io/literature-comb-ledger/#LC-0002) — status as of 2026-10-28: open. Cite this LC number in any correction.
 A 1960s guanidine-containing polyketide macrolide (azalomycin F) was documented to kill
 *C. albicans* by membrane permeabilisation with leakage of cell constituents. It has
 never been tested against *C. auris* or the *C. haemulonii* complex.
@@ -54,6 +58,8 @@ never been tested against *C. auris* or the *C. haemulonii* complex.
 ---
 
 ## 2026-10-19 | cauris | ~6/10 | DESTINATION: undecided
+
+- **Downstream:** LC-0003 in the betsyisaac public ledger (https://betsyisaac.github.io/literature-comb-ledger/#LC-0003) — status as of 2026-10-28: open. Cite this LC number in any correction.
 **Pyrrolnitrin** (from *Pseudomonas aureofaciens*, 1964) against *C. auris* — the point
 is that its documented failure was a **systemic** failure, which does not apply to the
 two places *C. auris* actually has to be killed: colonised skin and dry surfaces.
@@ -95,6 +101,8 @@ imidazoles arrived. Never tested against *C. auris*.
 ---
 
 ## 2026-10-20 | cacao-cadmium | score 7/6/6 (3 of 3 survived) | DESTINATION: undecided
+
+- **Downstream:** LC-0004 in the betsyisaac public ledger (https://betsyisaac.github.io/literature-comb-ledger/#LC-0004) — status as of 2026-10-28: open. Cite this LC number in any correction.
 **Change the ANION, not the pH.** Replace muriate of potash (KCl) with potassium
 sulphate (K2SO4) as the maintenance K source in established cacao, and treat
 soil-solution chloride (fertiliser, irrigation water, coastal sea-salt deposition) as a
@@ -309,6 +317,8 @@ treatment advice.
 
 ## 2026-10-20 (scheduled run, batch 4) — inp-secondary-ice
 
+- **Downstream:** LC-0005 in the betsyisaac public ledger (https://betsyisaac.github.io/literature-comb-ledger/#LC-0005) — status as of 2026-10-28: open. Cite this LC number in any correction.
+
 **LEAD (SURVIVOR, scores 6 / 5 / 2 — the one lead this run that reaches the
 "worth one cheap check" threshold, and only just).**
 Calcium phosphate (apatite / amorphous calcium phosphate) has apparently never been tested as
@@ -472,6 +482,8 @@ DESTINATION: undecided.
 
 
 ## 2026-10-21 | tial_hot_salt_scc_300_500C | scores 7/5/3 (1 of 3 refuted) | DESTINATION: undecided
+
+- **Downstream:** LC-0006 in the betsyisaac public ledger (https://betsyisaac.github.io/literature-comb-ledger/#LC-0006) — status as of 2026-10-28: open. Cite this LC number in any correction.
 Agent: claude-opus-5
 
 **LEAD.** gamma-TiAl may have a LOWER HSSCC onset temperature than any conventional titanium alloy — plausibly below the canonical ~260-290 C floor — because the 1968 NASA mechanism makes Al2O3 in the SCALE a catalytic accelerator of NaCl pyrohydrolysis, not merely a passive marker of alloy Al content. Cheap check: a stress ladder at 150, 250, 350 MPa on Ti-48Al-2Cr-2Nb with 0.1 mg/cm2 solid NaCl in moist air, run DOWNWARD from 400 C to 200 C, looking for a crack threshold below the temperature at which conventional Ti alloys are considered immune. Corollary worth testing in the same campaign: rank variants by scale Al2O3 activity (pre-oxidised alumina-rich scale vs. as-machined transient mixed TiO2/Al2O3 scale, and Nb/Cr levels that change scale constitution) rather than by bulk Al%, because the mechanism predicts the scale, not the bulk, sets the HCl source term.
@@ -620,6 +632,8 @@ Cost and time: roughly 300-600 USD in laminate/mold materials and consumables, a
 ---
 
 ## 2026-10-21 | dryland_station_soil_moisture_1906_1940 | scores 6/6/3 (1 of 3 refuted) | DESTINATION: undecided
+
+- **Downstream:** LC-0008 in the betsyisaac public ledger (https://betsyisaac.github.io/literature-comb-ledger/#LC-0008) — status as of 2026-10-28: open. Cite this LC number in any correction.
 Agent: claude-opus-5
 
 **LEAD.** Kansas Bulletin 273 prints a year-by-year, station-by-station record of plant-available soil water in the profile at wheat seeding time for three western Kansas dryland stations spanning the onset of the Dust Bowl (Hays 1909/1910-1934, Colby 1914-1934, Garden City 1923-1934), measured gravimetrically in one-foot sections to 6 feet. These are, as far as I can find, the only such numbers in print for the US Great Plains that overlap the 1930s drought and have never been used to evaluate any 1930s model soil moisture reconstruction. The cheap check: extract Tables II, III, V and VII, convert the printed inches-of-available-water to the same basis as a 1920-2003 land surface model reconstruction (Andreadis & Lettenmaier's six-LSM ensemble is the obvious first target) or 20th Century Reanalysis rSM, and compare the autumn 1933 and autumn 1934 anomalies at the three grid cells. A plot-scale record under fallow/tillage treatments will not match a grid cell outright - the informative result is the sign and the rank ordering of the dry years, and whether the models reproduce the 1934 deep-profile depletion the bulletin describes.
@@ -686,6 +700,8 @@ Not refuted as a connection — the 106-Mile benthic dataset genuinely is an une
 
 
 ## 2026-10-21 | firn_tunnel_closure_calibration | scores 7/6/5 (0 of 3 refuted) | DESTINATION: undecided
+
+- **Downstream:** LC-0009 in the betsyisaac public ledger (https://betsyisaac.github.io/literature-comb-ledger/#LC-0009) — status as of 2026-10-28: open. Cite this LC number in any correction.
 Agent: claude-opus-5
 
 **LEAD.** Invert Landauer's 1954-56 Site 2 excavation experiment for k. At the very Greenland site whose ONE-dimensional depth-density profile underpins the canonical k ~ 1000 (Zwinger et al. 2007, reproduced as Fig. 4 of the 2025 paper), SIPRE ran a two-year, four-geometry, non-hydrostatic deformation experiment in natural névé: an 8-ft-diameter horizontal cylindrical tunnel at 6.1 m depth instrumented at eight stations on four diameters, two differently-restrained trenches, and a 30.5 m deep pit instrumented for closure at seven levels and for vertical compaction at thirteen layer intervals. The report tabulates second-year closure rates AND the strain rates already normalised by span, plus depth, density, overburden stress and compactive viscosity for Site 2, and a measured in-tunnel density profile compared against the undisturbed profile. Cheap first check (hours, not months): take Table I's vertical/oblique/horizontal tunnel strain rates at one depth, where the ratio between the three diameters is a near-pure geometric fingerprint of compressibility, and ask which k in the GM97 rheology reproduces that anisotropy ratio — the vertical diameter closed about three times faster than the oblique pair while the horizontal diameter closed at essentially zero or slightly negative. No digitising, no unit guesswork, no warm-summer confound (Landauer: melting at the site is 'a very infrequent phenomenon', T = -24.4 C below 10 m, accumulation 41.5 g/cm2/yr).
@@ -797,6 +813,8 @@ Finally, reframe the brief before pitching it. Drop "moisture-assisted" from the
 ---
 
 ## 2026-10-21 | glass-core-static-fatigue | scores 8/5/5 (0 of 3 refuted) | DESTINATION: undecided
+
+- **Downstream:** LC-0007 in the betsyisaac public ledger (https://betsyisaac.github.io/literature-comb-ledger/#LC-0007) — status as of 2026-10-28: open. Cite this LC number in any correction.
 Agent: claude-opus-5
 
 **LEAD.** Wiederhorn & Bolz's 1970 Table II already contains the complete crack-kinetics parameter set (E*, b, ln v0) for an ALKALI-FREE low-alkali aluminosilicate (Na2O = 0.01 wt fraction) and for a 7740-type borosilicate — i.e. the two glass families used as package cores — together with a closed-form time-to-failure integral and a composition-specific universal fatigue curve. Combining that parameter set with published TGV/glass-core ring-on-ring Weibull strengths yields a parameterized lifetime bound for RDL-stressed glass cores. The disconnect is documentable at the level of a single citation: the glass-packaging chain (McCann/Sitaraman -> Micromachines 2025) cites this same stress-corrosion literature ONLY for the water-reduced fracture energy (8 -> 1.98 J/m^2), using the static threshold and discarding the kinetics printed in the same papers.
@@ -855,6 +873,8 @@ Check 1 (measurement, if Check 0 leaves a stressed population): run ASTM C1368 c
 
 
 ## 2026-10-21 | lusatia-flowliq-population | scores 7/4/3 (1 of 3 refuted) | DESTINATION: undecided
+
+- **Downstream:** LC-0010 in the betsyisaac public ledger (https://betsyisaac.github.io/literature-comb-ledger/#LC-0010) — status as of 2026-10-28: open. Cite this LC number in any correction.
 Agent: claude-opus-5
 
 **LEAD.** Ghahramani et al. explicitly tried and failed to stratify their tailings-flow mobility regression by flow-path confinement and tailings type, stating that these factors visibly affect mobility 'however, the data are not stratified enough to incorporate these factors into the regression analysis yet' at n = 33, and closing by saying they are 'currently building the database and investigating the effects of other attributes of the tailings and downstream topography'. The Lusatian corpus is a candidate source of exactly that missing topographic stratification, because it already carries a per-event runout-arrest classification and a closed-form arrest criterion. Weissbach 2020 Anhang 3 assigns each event a named 'Hemmung Horizontalverschiebung' - Versteckter Damm (a buried berm), Muldenlage (basin position), Ueberhoehe, Altereignis (a previous event's scar) - alongside the measured horizontal displacement, and Wittig 2017 derives from the same event population a dimensionless arrest criterion in which the ratio of groundwater depth at the slope toe to that at the slope crest, h_F/h_K, must exceed about 0.333 (for a cap friction angle of 30 degrees) for horizontal flow to be prevented, with slope angle and unit weight dropping out of the expression entirely. The cheap check is whether h_F/h_K, or Weissbach's m_h with toe groundwater depth, retrodicts flow-versus-no-flow on the sandy subset of documented hydraulic-fill and cycloned-sand-underflow failures better than a confined/unconfined binary does.
@@ -873,6 +893,8 @@ Agent: claude-opus-5
 
 
 ## 2026-10-21 | grain-storage-hermetic-insect-control | scores 7/5/2 (1 of 3 refuted) | DESTINATION: undecided
+
+- **Downstream:** LC-0011 in the betsyisaac public ledger (https://betsyisaac.github.io/literature-comb-ledger/#LC-0011) — status as of 2026-10-28: open. Cite this LC number in any correction.
 Agent: claude-opus-5
 
 **LEAD.** Re-derive the CSIRO 'optimal standard of sealing' at smallholder scale and state the airtightness tolerance for a 20-100 kg hermetic bag as a whole-container fractional gas interchange rate per day (measurable as a pressure-decay half-life on the filled bag), not as a liner oxygen transmission rate in cc/m2/day. Banks's criterion -- seal only until wind-driven loss is negligible against thermally driven headspace loss -- was solved for 300-10,000 t stores, where headspace gas volume is large and surface/volume small. A 50 kg bag inverts both terms: headspace is nearly nil so thermal pumping almost vanishes, while envelope area per tonne of grain is roughly two orders of magnitude larger, so steady permeation and seam/pinhole flow should dominate. Testable prediction: the material-OTR rating the field is standardising on (ASABE X657 draft, vendor cc/m2/day) is not size- or shape-invariant and will mis-rank bags in service, whereas a filled-bag pressure-decay half-life calibrated against the 2-5% O2 insect threshold should predict field outcome. Cheap check: pressure-decay half-life plus O2 logging on the same bags across liner OTR classes.
@@ -904,6 +926,8 @@ Exact queries run: WebSearch "pressure decay test hermetic grain bag air leakage
 
 
 ## 2026-10-26 | tial_hot_salt_scc_300_500C_second_pass | scores 7/6/2 (1 of 3 refuted) | DESTINATION: undecided
+
+- **Downstream:** LC-0012 in the betsyisaac public ledger (https://betsyisaac.github.io/literature-comb-ledger/#LC-0012) — status as of 2026-10-28: open. Cite this LC number in any correction.
 Agent: claude-opus-5
 
 **LEAD.** Fluoride is the one halide that does NOT produce hot-salt stress corrosion cracking in Ti-Al alloys (Ondrejcin 1969: NaF-coated stressed specimens at 85 percent of yield, 350 C, 75 h absorbed essentially zero tritium and did not crack, while NaCl, NaBr and NaI all absorbed hydrogen and cracked), and the proposed reason is that HF attack removes the hydrogen-bearing surface layer as volatile TiF4 faster than hydrogen can diffuse in. Modern gamma-TiAl is already fluorinated deliberately — the "fluorine effect" / halogen effect, by HF dip, F implantation or polymer spray — but only ever validated for unstressed oxidation at 700-1050 C. The hypothesis worth one cheap check: on gamma-TiAl the 1969 inhibition mechanism inverts, because the self-removal step depends on TiF4 sublimation (~284 C) while on a 45-50 at% Al alloy the surface fluoride population shifts toward AlF3, which is not volatile at 300-500 C, so fluorine should stop protecting and may sensitise. Check: run F-treated and untreated gamma-TiAl side by side, stressed, under NaCl at 350-450 C, and measure hydrogen uptake, not mass change.
@@ -946,6 +970,8 @@ Before spending anything, do two hours of due diligence on the one risk I could 
 
 
 ## 2026-10-26 | agx_constant_ion_activity_precipitation | scores 7/6/3 (1 of 3 refuted) | DESTINATION: undecided
+
+- **Downstream:** LC-0013 in the betsyisaac public ledger (https://betsyisaac.github.io/literature-comb-ledger/#LC-0013) — status as of 2026-10-28: open. Cite this LC number in any correction.
 Agent: claude-opus-5
 
 **LEAD.** Transfer the photographic industry's closed-loop *free-halide-activity* control (constant pAg/pBr double-jet precipitation, with the ion activity itself as the regulated variable) to the polar antisolvent/LARP crystallization of CsPbX3 nanocrystals, as a reproducibility instrument rather than a new formulation. The specific stealable, counterintuitive content is the photographic practice of regulating the free ion activity directly — and of adding a solubility-enhancing 'ripening agent' to NARROW rather than broaden the distribution — in a field that currently regulates nominal precursor molar ratios and closes its loops on photoluminescence.
