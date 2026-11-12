@@ -91,6 +91,11 @@ YOUR BRIEF: it is in ${TFILE}. That file is large; do NOT Read it whole. Use the
 pattern "\\"key\\": \\"${t.key}\\"", path ${TFILE}, output_mode "content", -A 12 (stop at the next "key"). The lines after the key
 include "problem", "notes" (premise check, discontinuity event, physical-coherence check, verifiability plan,
 killer caveats, UNVERIFIED flags) and "premise_verified". Copy "problem" verbatim into target_problem.
+The "notes" line can be very long and Grep may truncate it: take its line number from the Grep -n output and
+use the Read tool with offset=<that line>, limit=1 (allow_large: true if needed) to get it whole.
+THIS RUN IS UNATTENDED: NEVER use Bash, PowerShell or any shell command (no sed, cat, py, tesseract). A shell call
+raises a permission prompt nobody will answer and hangs the whole workflow (happened 2026-11-12, twice).
+Use only Read/Grep/Glob, ToolSearch, WebSearch and WebFetch. If a step seems to need a shell, skip it.
 ${t.already_found ? 'ALREADY FOUND by earlier runs, do NOT re-report: ' + t.already_found : 'ALREADY FOUND: nothing (first comb of this key).'}
 
 Procedure:
@@ -123,6 +128,7 @@ Work your lens hard, but still fill every field.
 - Known failure mode: the scout's OWN cited source contradicts the lead. Read the primary source.
 - Never accept a claim that a review, standard, tracker or database "omits" something unless you loaded it.
 - If it survives, give the cheapest concrete check a qualified expert could run — cost and time.
+- UNATTENDED RUN: NEVER use Bash, PowerShell or any shell command; it hangs on a permission prompt. Use only Read/Grep/Glob, ToolSearch, WebSearch, WebFetch.
 
 ${SOURCES}`
 
